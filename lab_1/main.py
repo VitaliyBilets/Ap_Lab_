@@ -1,3 +1,4 @@
+import math
 
 #змінні
 name="Vitaliy"
@@ -13,7 +14,6 @@ a=True
 b=False
 print("\n", a, "\n", b)
 
-import math
 x=2.632
 y=0.731
 print(math.sin(x**2)+(math.cos(2*x + y)-14 * ((x**2 - y)**3)))
