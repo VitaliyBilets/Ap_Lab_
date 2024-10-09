@@ -25,9 +25,10 @@ while x <= b:
         f_x = tan(x)
     elif  x >= 0.7:
         f_x = atan(x)
-    x = round(x, 3)
+
     print(f"x = {x}, f(x) = { round(f_x, 3)}")
     x += h
+    x = round(x, 3)
 
 print(x)
  #Task2
@@ -51,9 +52,11 @@ def f(x, d, n_max=1):
 x = a
 while x <= b:
     f_x = f(x, d)
-    x = round(x, 3)
+
     print(f"x2 = {x}, f(x2) ≈ {round (f_x , 3)}")
     x += h
+    x = round(x, 3)
+    print(x)
 
 
 
